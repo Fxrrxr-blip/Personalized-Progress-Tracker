@@ -1,0 +1,10 @@
+{
+  "description": "Track your personal goals and progress with customizable tools designed to boost motivation and achieve success efficiently.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
