@@ -271,14 +271,16 @@ export default function App() {
           />
         )}
         {view === 'calendar' && (
-          <Calendar
-            isDark={isDark}
-            assignments={assignments}
-            courses={courses}
-            workouts={workouts}
-          />
+          <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+            <Calendar
+              isDark={isDark}
+              assignments={assignments}
+              courses={courses}
+              workouts={workouts}
+            />
+          </div>
         )}
-      </main>
-    </div>
-  )
+        </main>
+        </div>
+    )
 }
