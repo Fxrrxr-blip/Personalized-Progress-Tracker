@@ -236,6 +236,7 @@ export default function App() {
         alignItems: 'center',
         padding: '32px 24px',
         width: '125%',
+        maxWidth: view === 'calendar' ? '1280px' : '100%',
       }}>        {view === 'overview' && (
           <Overview
             isDark={isDark}
