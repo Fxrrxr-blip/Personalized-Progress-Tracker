@@ -225,7 +225,7 @@ export default function App() {
       </nav>
 
       {/* Main content */}
-      <main style={{ flex: 1, overflowY: 'auto', position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '32px 24px', maxWidth: 800, margin: '0 auto', width: '100%' }}>
+      <main style={{ flex: 1, overflowY: 'auto', position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '32px 24px', maxWidth: 1200, margin: '0 auto', width: '100%' }}>
         {view === 'overview' && (
           <Overview
             isDark={isDark}
