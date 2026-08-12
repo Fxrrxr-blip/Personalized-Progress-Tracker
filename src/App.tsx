@@ -235,7 +235,7 @@ export default function App() {
         flexDirection: 'column',
         alignItems: 'center',
         padding: '32px 24px',
-        width: '100%',
+        width: '125%',
       }}>        {view === 'overview' && (
           <Overview
             isDark={isDark}
