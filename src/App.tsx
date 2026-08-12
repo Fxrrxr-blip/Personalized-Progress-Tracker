@@ -225,7 +225,6 @@ export default function App() {
       </nav>
 
       {/* Main content */}
-{/* Main content */}
       <main style={{
         flex: 1,
         overflowY: 'auto',
@@ -235,9 +234,10 @@ export default function App() {
         flexDirection: 'column',
         alignItems: 'center',
         padding: '32px 24px',
-        width: '125%',
+        width: '100%',
         maxWidth: view === 'calendar' ? '1280px' : '100%',
-      }}>        {view === 'overview' && (
+      }}>
+        {view === 'overview' && (
           <Overview
             isDark={isDark}
             assignments={assignments}
@@ -271,16 +271,14 @@ export default function App() {
           />
         )}
         {view === 'calendar' && (
-          <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-            <Calendar
-              isDark={isDark}
-              assignments={assignments}
-              courses={courses}
-              workouts={workouts}
-            />
-          </div>
+          <Calendar
+            isDark={isDark}
+            assignments={assignments}
+            courses={courses}
+            workouts={workouts}
+          />
         )}
-        </main>
-        </div>
-    )
+      </main>
+    </div>
+  )
 }
